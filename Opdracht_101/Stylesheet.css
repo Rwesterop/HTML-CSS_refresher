@@ -1,0 +1,20 @@
+H1{font-size: 20px;color: rgba(0, 0, 0, 0.781);margin: 0px;margin-bottom: 5px;margin-left:10px;}
+H2{font-size: 14px;font-weight:normal;color:grey;margin:0px;margin-left: 10px;}
+H3{font-size: 14px;font-weight:normal;color: rgba(0, 0, 0, 0.747);margin-left: 10px;}
+.container{display:grid;
+grid-template-columns:350px 350px ;
+grid-template-rows:200px  ;
+grid-gap:15px;
+border-color: grey;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container1,.container2{
+    border-width:2px;grid-gap:20px; border-radius:6px;border-style: ridge;border-color: rgba(128, 128, 128, 0.404);padding-top:10px;
+}
+.container2>h3::after{Content:" Best Friends";font-weight: bold;}
+
+.button1{color:rgb(15, 189, 15);border-color: rgb(15, 189, 15); background-color: white;border-style: solid;Padding:13px 33px 13px 33px;margin-right: 0px;border-radius:4px;font-size:20px;margin-left:20px;border-right-color:rgb(240, 72, 72);border-right-width: thin;}
+.button2{color:rgb(240, 72, 72);border-color: rgb(240, 72, 72); background-color: white;border-style: solid;Padding:13px 43px 13px 43px;margin-left: 0px;border-radius:4px;font-size:20px;margin-right:20px;}
+img{float: right;height:40px;margin:0px;padding-right: 10px}
+
+
